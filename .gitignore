@@ -1,0 +1,24 @@
+# Ignore node modules (do NOT commit these)
+client/node_modules/
+
+# Ignore React build output
+client/build/
+client/dist/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore .env files if any
+.env
+
+# Ignore .NET build output folders
+server/bin/
+server/obj/
+
+# Ignore VS/IDE settings folders
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
